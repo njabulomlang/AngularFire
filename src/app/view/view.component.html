@@ -1,26 +1,44 @@
-<div class="rooms">
-  <p >
-
-
-  </p>
-  <button (click)="bookedby()">Booked by</button>
-</div>
 
 <div class="container">
   <div class="contain" *ngFor="let r of rooms">
     <div class="left">
-      <div class="hotname">24/7 Hotels</div>
-      <div class="phot"> <img src="{{r.image}}" height="300" width="400"> </div>
+      
+      <div class="ico" routerLink="/home"><i  class="fa fa-long-arrow-alt-left"></i>
+ </div>
+      <div class="hotname">{{r.HotelName}}</div>
+      <div class="phot"><img src="{{r.image}}" height="330" width="300"></div>
+    </div>
+    <div class="right">
+      <div class="hottype">
+          {{r.RoomType}}
+      </div>
+      <div class="hotdescrib">
+          <div class="det">
+              <i class="fas fa-money-check"></i> R {{r.Price}}<br>
+            <i class="fa fa-info"></i>{{r.Description}}<br>
+            <i class="fa fa-long-arrow-alt-left"></i>{{r.Contact}}<br>
+            <i class="fa fa-long-arrow-alt-left"></i>{{r.Features}}<br>
+            <i class="fa fa-long-arrow-alt-left"></i>{{r.location}}<br>
+
+      </div>
+    </div>
+  </div>
+ </div>
+<!--<div class="container">
+  <div class="contain" >
+    <div class="left">
+      <div class="hotname">{{r.hotelName}}</div>
+      <div class="phot">  </div>
     </div>
     <div class="right">
       <div class="hottype">
 
       </div>
       <div class="hotdescrib">
-       R {{r.Price}}
-        {{r.Description}}
-        {{r.RoomType}}
+       R
       </div>
     </div>
+    <a >Home</a>
   </div>
 </div>
+-->
