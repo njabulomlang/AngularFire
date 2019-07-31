@@ -1,0 +1,65 @@
+.container{
+  width: 100%;
+  height: 78vh;
+  background: linear-gradient(rgba(31, 32, 34, 0.703),rgba(54, 50, 63, 0.781)),url(../../assets/backgd.jpg);;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 10%;
+}
+.contain{
+  width: 40%;
+  height: 60vh;
+  border: solid;
+  margin: auto;
+  display: flex;
+}
+.left{
+  width: 50%;
+  height: 100%;
+  border: solid;
+
+}
+.right{
+  width: 50%;
+  height: 100%;
+  border: solid;
+
+}
+.hotname{
+  height: 10%;
+  width: 40%;
+  margin: auto;
+  margin-top: 30%;
+  color: aliceblue;
+  font-size: 7mm;
+  border: solid;
+}
+.phot{
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  background-size: cover;
+  background-position: center center;
+
+}
+.hottype{
+
+  height: 10%;
+  width: 40%;
+  margin: auto;
+  margin-top: 30%;
+  color: aliceblue;
+  font-size: 7mm;
+  border: solid;
+}
+.hotdescrib{
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  border: solid;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

@@ -1,0 +1,26 @@
+<div class="rooms">
+  <p >
+
+
+  </p>
+  <button (click)="bookedby()">Booked by</button>
+</div>
+
+<div class="container">
+  <div class="contain" *ngFor="let r of rooms">
+    <div class="left">
+      <div class="hotname">24/7 Hotels</div>
+      <div class="phot"> <img src="{{r.image}}" height="300" width="400"> </div>
+    </div>
+    <div class="right">
+      <div class="hottype">
+
+      </div>
+      <div class="hotdescrib">
+       R {{r.Price}}
+        {{r.Description}}
+        {{r.RoomType}}
+      </div>
+    </div>
+  </div>
+</div>

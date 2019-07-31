@@ -1,0 +1,83 @@
+.container{
+  width: 120vh;
+  background-color: black;
+
+  border: solid
+}
+.container2{
+  width: 90%;
+  background-color: aliceblue;
+  margin: auto;
+  height: 100vh;
+  border: solid;
+
+}
+.navi{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  padding: 10px;
+}
+.navi2{
+  width: 20%;
+  height: 15%;
+
+}
+.navi1{
+  width: 40%;
+  height: 15%;
+
+}
+.navi3{
+  width: 20%;
+  height: 15%;
+
+}
+.navi4{
+  width: 20%;
+  height: 15%;
+
+}
+.header{
+  width: 100%;
+  height: 40%;
+  background-image: url(../assets/pexels-photo-189296.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+.date{
+  height: 10%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  margin-top: -2%;
+  background-color: aliceblue;
+
+}
+.date1{
+height: 100%;
+width: 20%;
+padding: 10px
+
+}
+.date2{
+  margin: auto;
+  padding: 0px
+}
+.accom{
+  width: 100%;
+  height: 48%;
+  border: solid;
+}
+.aHeader{
+  width: 20%;
+  height: 15%;
+  margin: auto;
+  padding: 20px;
+
+
+}

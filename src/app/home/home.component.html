@@ -1,0 +1,47 @@
+
+<div class="container">
+
+  <div class="container2">
+
+
+      <div class="header">
+          <div class="navi">
+
+              <div class="navi1"></div>
+              <div class="navi2">HOME</div>
+                <div class="navi3"> PROFILE</div>
+                <div class="navi4"><button type="button" (click)="logout()">LOG-OUT</button></div>
+              </div>
+      </div>
+       <div class="date">
+         <div class="date1" >
+            CHECK-IN
+         </div>
+         <div class="date1">
+           CHECK-OUT
+          </div>
+          <div class="date1">
+           ADULT
+            </div>
+            <div class="date2"><input type="button" value="VIEW" style="border-radius: 25px;background-color: rgb(70, 127, 192);color: azure;width: 70%; height: 50%"></div>
+       </div>
+        <div class="accom">
+          <div class="aHeader">
+            ACCOMMODATION
+          </div>
+          <div class="bHeader">
+            LUXURY INTERIOR
+          </div>
+          <div class="cHeader">
+            <input type="button" value="CLASSIC ROOM" class="BTN">
+            <input type="button" value="LUXURY ROOM" class="BTN">
+            <input type="button" value="SUPERIOR ROOM" class="BTN">
+          </div>
+          <div class="rooms">
+            <p *ngFor="let r of rooms">
+              <img [src]="r.image" height="300" width="400" [routerLink]="['/view', r.key]">
+            </p>
+        </div>
+
+    </div>
+  </div>
